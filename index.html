@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nova Raiders</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="intro-screen">
+  <h1 class="game-title">NOVA RAIDERS</h1>
+
+  <div class="instructions">
+    <p>Move with <span>MOUSE</span></p>
+    <p>Shoot with <span>S</span></p>
+  </div>
+
+  <button id="start-btn">INITIALIZE ATTACK</button>
+</div>
+
+<div id="hud">
+  <div class="game-info">
+    <div class="game-name">NOVA RAIDERS</div>
+    <div class="stats">
+      Score: <span id="score">0</span> | Kills: <span id="kills">0</span>
+    </div>
+  </div>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<div id="game-over">
+  <h1>CRITICAL FAILURE</h1>
+  <p>Simulation Terminated.</p>
+  <p>Final Score: <span id="finalScore">0</span></p>
+  <button id="reboot-btn">REBOOT SYSTEM</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
+
+
