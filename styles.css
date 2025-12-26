@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+  color: #ff00ff
+}
+
+canvas {
+  display: none;
+}
+
+#intro-screen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #020b10, #000);
+  gap: 20px;
+}
+
+.game-title {
+  font-size: 4rem;
+  text-shadow: 0 0 20px #ff00ff;
+}
+
+.instructions {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.instructions span {
+  color: #00f7ff;
+}
+
+button {
+  padding: 14px 40px;
+  background: transparent;
+  color: #00f7ff;
+  border: 2px solid #00f7ff;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background: #ff00ff;
+  color: black;
+}
+
+#hud {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: none;
+  gap: 15px;
+  font-size: 0.9rem;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.game-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #0ff;
+}
+
+.stats {
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+#game-over {
+  position: fixed;
+  inset: 0;
+  display: none;
+  background: rgba(0,0,0,0.95);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#game-over h1 {
+  color: magenta;
+  text-shadow: 0 0 15px magenta;
+}
