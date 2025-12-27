@@ -1,6 +1,6 @@
 # Nova Raiders
 
-**Nova Raiders** is a simple browser‑based arcade game where you control a ship, avoid danger, and shoot enemies to earn points.
+**Nova Raiders** is a simple browser‑based arcade desktop game where you control a ship, avoid danger, and shoot enemies to earn points.
 
 ---
 
